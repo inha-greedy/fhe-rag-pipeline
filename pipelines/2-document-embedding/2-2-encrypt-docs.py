@@ -21,7 +21,7 @@ def ckks_string():
         'scheme': 'CKKS',
         'n': 2**14,         
         'scale': 2**30,     
-        'qi_sizes': [60]  # 문자열 암호화에 곱셈을 사용하지 않으므로, 체인에 하나의 큰 소수만 있으면 됨
+        'qi_sizes': [60]  # 체인에 하나의 큰 소수만 있으면 됨
     })
     HE.relinKeyGen()
     print("\nCKKS 컨텍스트 생성")
